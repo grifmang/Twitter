@@ -11,10 +11,10 @@ def get_tag():
 	return hashtag
 	
 def twitter():
-	consumer_key = 'Y3L5Yjn3C5giaTH60qnbWJ1Qq'
-	consumer_secret = 'W8IXAG8kTOgVGcN9D1u6MOMGTYUsyIF2vtIwQzqc16OPr6ZHRm'
-	access_token = '15747784-FX2BXrMsDcYuhRBsJ7xB81yM9oWD7RNb1xLgc2veu'
-	access_secret = 'DUbSSxFaOIEsILb9h7natR7OuNxIF319ydpfBMb9ZzMgY'
+	consumer_key = ''
+	consumer_secret = ''
+	access_token = ''
+	access_secret = ''
 	
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_secret)
